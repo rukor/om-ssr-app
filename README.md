@@ -25,3 +25,12 @@ lein with-profile prod cljsbuild once app server
 ```
 
 The app is then ready to deploy to heroku via git push per heroku's instructions. Note that the same applies for other heroku style PaaS like deis and flynn.
+
+This is a pre-alpha quality proof of concept, pull requests welcome.
+
+## License
+
+Copyright © 2015 Roland Ukor
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
