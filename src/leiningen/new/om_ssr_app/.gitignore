@@ -15,4 +15,5 @@ target/
 .idea
 *.iml
 node_modules
-
+resources/public/js/out
+resources/server

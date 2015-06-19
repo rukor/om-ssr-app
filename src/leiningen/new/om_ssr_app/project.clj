@@ -30,7 +30,7 @@
              {:app    {:source-paths ["src/app"]
                        :compiler     {:main          "{{ns-name}}.app.main"
                                       :output-to     "resources/public/js/app.js"
-                                      :output-dir    "resources/public/js"
+                                      :output-dir    "resources/public/js/out"
                                       :asset-path    "/js"
                                       :pretty-print  true
                                       :optimizations :none}}

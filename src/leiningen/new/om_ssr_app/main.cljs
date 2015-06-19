@@ -14,7 +14,7 @@
             [com.firstlinq.om-ssr.routes :refer [create-route-handler]]
             [com.firstlinq.om-ssr.router.silk :refer [silk-router]]
             ))
-(defn start
+(defn ^:export start
   "Entry point for application"
   []
   (enable-console-print!)
